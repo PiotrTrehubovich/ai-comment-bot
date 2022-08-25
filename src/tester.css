@@ -1,0 +1,186 @@
+.tester-main {
+    background-image: conic-gradient(from 180deg at 50% 50%, rgba(182, 202, 246, 1),rgba(239, 219, 243, 1), rgba(182, 202, 246, 1));
+    display: flow-root;
+}
+.secondary-header {
+    font-family: Neue Machina;
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 63px;
+    text-align: center;
+    color: rgba(11, 55, 161, 1);
+}
+.tester-header{
+    padding-top: 120px;
+}
+.bot-comment {
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(11, 55, 161, 1);
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.main-btn {
+    width: 240px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: rgba(208, 137, 214, 1);
+    border: 0;
+    text-align: center;
+    font-family: Neue Machina;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 1);
+    margin: 0 auto;
+    display: block;
+}
+.btn-desc {
+    font-family: Raleway;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    text-align: center;
+    color: rgba(11, 55, 161, 0.5);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.main-window {
+    width: 969px;
+    height: 708px;
+    border-image: linear-gradient(rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0.2)) ;
+    border-radius: 20px;
+    border-width: 1px;
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.5) 0% ,rgba(255, 255, 255, 0.2) 100%);
+    margin: 0 auto;
+    display: flow-root;
+}
+.photo-window {
+    width: 889px;
+    height: 500px;
+    background-image: linear-gradient(135deg,#B6CAF6 56.33%,#EFDBF3 100%);
+    margin: 40px auto 0 auto;
+    display: block;
+    position: relative;
+}
+.photo-window p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: rgba(39, 86, 224, 1);
+}
+.comment-window {
+    width: 889px;
+    height: 93px;
+    border-radius: 50px;
+    background-image: linear-gradient(270deg,rgba(208, 137, 214, 1), rgba(33, 84, 224, 1));
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    display: block;
+    position: relative;
+}
+.comment-window p {
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin-left: 33px;
+}
+
+
+.release-header{
+    margin-top: 300px;
+}
+.notes {
+    width: 1490px;
+    border-radius: 50px;
+    background-image: linear-gradient(270deg,rgba(208, 137, 214, 1), rgba(33, 84, 224, 1));
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.top-notes{
+    height: 202px;
+    margin-top: 50px;
+}
+.notes ul {
+    margin-left: 40px;
+    padding: 0;
+}
+.notes p {
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 30px;
+    margin-left: 40px;
+}
+.notes li {
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 1);
+    width: 1395px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.bottom-notes {
+    height: 131px;
+    margin-top: 10px;
+}
+
+.contact-header {
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.contacts-images {
+    height: 70px;
+    margin-bottom: 200px;
+    display: inline-block;
+}
+.line-before {
+    width: 700px;
+    height: 2px;
+    background-image: linear-gradient(rgba(205, 136, 213, 1),rgba(11, 55, 161, 1));
+    border: 0;
+    display: inline-block;
+    margin: auto;
+    margin-right: 95px;
+}
+.contacts-images a {
+    display: inline block;
+    margin: 0 15px 0 15px;
+}
+.line-after {
+    width: 700px;
+    height: 2px;
+    background-image: linear-gradient(rgba(205, 136, 213, 1),rgba(11, 55, 161, 1));
+    border: 0;
+    display: inline-block;
+    margin: auto;
+    margin-left: 95px;
+}
