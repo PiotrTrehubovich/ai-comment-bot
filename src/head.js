@@ -5,13 +5,13 @@ function Head() {
     <div className="head-section">
       <nav class="top-menu">
         <a className="navbar-logo">
-          <img src="Pictures/logo.svg" alt="logo" wigth="80" height="80" />
+          <img src="Pictures/logo.svg" alt="logo" />
         </a>
         <ul className="main-menu">
           <li className="nav-item">
             <a
+              className="nav-link"
               href="https://web.telegram.org/"
-              target="_blank"
               width="36"
               height="36"
             >
@@ -20,8 +20,8 @@ function Head() {
           </li>
           <li className="nav-item">
             <a
+              className="nav-link"
               href="https://web.whatsapp.com/"
-              target="_blank"
               width="32"
               height="32"
             >
@@ -29,16 +29,20 @@ function Head() {
             </a>
           </li>
           <li className="nav-item">
-            <a href="https://myaccount.google.com/" target="_blank" width="30">
+            <a
+              className="nav-link"
+              href="https://myaccount.google.com/"
+              width="30"
+            >
               <img src="Pictures/mail.png" alt="mail" />
             </a>
           </li>
         </ul>
       </nav>
 
-      <div>
+      <div className="desc-section">
         <div className="bot-desc">
-          <h1 className="main-header">
+          <h1 className="main-header desc-header">
             AI <b>PHOTO</b> RECOGNITION AND <b>COMMENT</b> GENERATION BOT
           </h1>
           <p className="description">
@@ -55,8 +59,6 @@ function Head() {
             className="logo-img"
             src="Pictures/pic.png"
             alt="bot"
-            height="631"
-            width="527"
           />
         </div>
       </div>
