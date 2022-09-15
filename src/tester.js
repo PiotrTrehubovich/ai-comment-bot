@@ -16,8 +16,11 @@ function Tester() {
           <div className="photo-window">
             <p>Your photo will appear here</p>
           </div>
-          <div className="comment-window">
-            <p>...</p>
+          <div className="comment">
+            <img src="Pictures/tail.svg" alt="tail" />
+            <div className="comment-window">
+              <p>...</p>
+            </div>
           </div>
         </div>
       </div>
@@ -26,7 +29,7 @@ function Tester() {
         <h2 className="secondary-header release-header">RELEASE NOTES</h2>
         <div className="notes">
           <div className="notes-desc">
-            <p>1.2.5 (25.07.2022)</p>
+            <p> <b>1.2.5</b> (25.07.2022)</p>
             <ul>
               <li>
                 Fixed an issue that prevented an app from enabling or disabling
@@ -44,7 +47,7 @@ function Tester() {
 
         <div className="notes">
           <div className="notes-desc">
-            <p>1.2.4 (18.07.2022)</p>
+            <p> <b>1.2.4</b> (18.07.2022)</p>
             <ul>
               <li>
                 Fixed an issue that prevented an app from enabling or disabling
@@ -56,7 +59,7 @@ function Tester() {
 
         <div className="notes">
           <div className="notes-desc">
-            <p>1.2.3 (10.07.2022)</p>
+            <p> <b>1.2.3</b> (10.07.2022)</p>
             <ul>
               <li>Fixed an issue (Issue #232107689)</li>
             </ul>
@@ -65,7 +68,9 @@ function Tester() {
 
         <div className="notes">
           <div className="notes-desc">
-            <p>1.2.2 (03.07.2022)</p>
+            <p>
+              <b>1.2.2</b> (03.07.2022)
+            </p>
             <ul>
               <li>Fixed an issue (Issue #251463663)</li>
             </ul>
@@ -73,32 +78,18 @@ function Tester() {
         </div>
       </div>
 
+
       <div className="contact-us">
         <h2 className="secondary-header contact-header">CONTACT US</h2>
         <div className="contacts-images">
           <hr className="line line-before"></hr>
-          <a
-            href="https://web.telegram.org/"
-            target="_blank"
-            width="70"
-            height="70"
-          >
+          <a href="https://web.telegram.org/">
             <img src="Pictures/telegram2.png" alt="telegram" />
           </a>
-          <a
-            href="https://web.whatsapp.com/"
-            target="_blank"
-            width="70"
-            height="70"
-          >
+          <a href="https://web.whatsapp.com/">
             <img src="Pictures/whatsapp2.png" alt="whatsapp" />
           </a>
-          <a
-            href="https://myaccount.google.com/"
-            target="_blank"
-            width="70"
-            height="70"
-          >
+          <a href="https://myaccount.google.com/">
             <img src="Pictures/mail2.png" alt="mail" />
           </a>
           <hr className="line line-after"></hr>

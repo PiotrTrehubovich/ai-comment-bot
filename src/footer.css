@@ -1,15 +1,15 @@
-.footer {
+  .footer {
     background-color: rgba(3, 19, 58, 1);
     height: 300px;
     display: flow-root;
-}
-.footer img {
+  }
+  .footer img {
     width: 80px;
     height: 80px;
     display: block;
     margin: 93px auto 0 auto;
-}
-.footer p {
+  }
+  .footer p {
     font-family: Raleway;
     font-size: 17px;
     font-weight: 400;
@@ -17,7 +17,7 @@
     color: rgba(80, 98, 140, 1);
     text-align: center;
     margin-top: 92px;
-}
+  }
 
 @media screen and (max-width:1000px) {
   .footer p {
@@ -28,7 +28,7 @@
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:770px) {
   .footer {
     height: 200px;
   }
