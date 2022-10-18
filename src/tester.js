@@ -29,7 +29,10 @@ function Tester() {
         <h2 className="secondary-header release-header">RELEASE NOTES</h2>
         <div className="notes">
           <div className="notes-desc">
-            <p> <b>1.2.5</b> (25.07.2022)</p>
+            <p>
+              {" "}
+              <b>1.2.5</b> (25.07.2022)
+            </p>
             <ul>
               <li>
                 Fixed an issue that prevented an app from enabling or disabling
@@ -47,7 +50,10 @@ function Tester() {
 
         <div className="notes">
           <div className="notes-desc">
-            <p> <b>1.2.4</b> (18.07.2022)</p>
+            <p>
+              {" "}
+              <b>1.2.4</b> (18.07.2022)
+            </p>
             <ul>
               <li>
                 Fixed an issue that prevented an app from enabling or disabling
@@ -59,7 +65,10 @@ function Tester() {
 
         <div className="notes">
           <div className="notes-desc">
-            <p> <b>1.2.3</b> (10.07.2022)</p>
+            <p>
+              {" "}
+              <b>1.2.3</b> (10.07.2022)
+            </p>
             <ul>
               <li>Fixed an issue (Issue #232107689)</li>
             </ul>
@@ -77,7 +86,6 @@ function Tester() {
           </div>
         </div>
       </div>
-
 
       <div className="contact-us">
         <h2 className="secondary-header contact-header">CONTACT US</h2>

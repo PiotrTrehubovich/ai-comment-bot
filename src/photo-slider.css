@@ -1,0 +1,37 @@
+.carousel {
+  position: relative;
+  width: 400%;
+  margin: 0;
+  left: 0;
+  animation: 12s slider infinite;
+}
+.carousel img {
+  float: left;
+  width: 25%;
+  height: 100%;
+  border-radius: 25px;
+}
+
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  30% {
+    left: 0;
+  }
+  33% {
+    left: -100%;
+  }
+  63% {
+    left: -100%;
+  }
+  66% {
+    left: -200%;
+  }
+  97% {
+    left: -200%;
+  }
+  100% {
+    left: -300%;
+  }
+}

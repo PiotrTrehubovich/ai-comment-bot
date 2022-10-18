@@ -1,4 +1,6 @@
 import "./head.css";
+import PhotoSlider from "./photo-slider";
+import TextSlider from "./text-slider";
 
 function Head() {
   return (
@@ -27,10 +29,26 @@ function Head() {
       <div className="desc-section">
         <div className="bot-desc">
           <div className="bot-header">
-            <img src="Pictures/Rectangle_1_main.svg" alt="" className="rec-1-main" />
-            <img src="Pictures/Rectangle_1_1600.svg" alt="" className="rec-1-1600" />
-            <img src="Pictures/Rectangle_1_770.svg" alt="" className="rec-1-770" />
-            <img src="Pictures/Rectangle_1_480.svg" alt="" className="rec-1-480" />
+            <img
+              src="Pictures/Rectangle_1_main.svg"
+              alt=""
+              className="rec-1-main"
+            />
+            <img
+              src="Pictures/Rectangle_1_1600.svg"
+              alt=""
+              className="rec-1-1600"
+            />
+            <img
+              src="Pictures/Rectangle_1_770.svg"
+              alt=""
+              className="rec-1-770"
+            />
+            <img
+              src="Pictures/Rectangle_1_480.svg"
+              alt=""
+              className="rec-1-480"
+            />
             <h1 className="main-header desc-header">
               <b>AI</b> PHOTO <b>RECOGNITION AND</b> COMMENT{" "}
               <b>GENERATION BOT</b>
@@ -45,8 +63,16 @@ function Head() {
             Photo recognition and comment generation technology.
           </p>
         </div>
-        <div className="logo">
-          <img className="logo-img" src="Pictures/pic.png" alt="bot" />
+        <div className="examples">
+          <div className="photo-slider">
+            <PhotoSlider />
+          </div>
+          <div className="comment-examples">
+            <img src="Pictures/tail2.svg" alt="tail2" />
+            <div className="text-slider">
+              <TextSlider />
+            </div>
+          </div>
         </div>
       </div>
     </div>

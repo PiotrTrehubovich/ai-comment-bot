@@ -1,5 +1,5 @@
   .head-section {
-    background-image: conic-gradient(from 315deg at 257px 340px, rgba(12, 78, 225, 1), rgba(208, 137, 214, 1),rgba(12, 78, 225, 1));
+    background-image: conic-gradient(from 315deg at 257px 290px, rgba(12, 78, 225, 1), rgba(208, 137, 214, 1),rgba(12, 78, 225, 1));
     height: auto;
   }
 
@@ -68,9 +68,9 @@
     flex-direction: column;
     display: flex;
     flex-wrap: wrap;
-    width: 67%;
+    width: 60%;
     padding-left: 20px;
-    margin-top: 150px;
+    margin-top: 100px;
   }
   .main-header {
     font-family: "Neue Machina Regular";
@@ -97,40 +97,63 @@
     margin-bottom: 0;
     width: 100%;
   }
-  .logo {
+
+  .examples {
     display: flex;
-    justify-content: flex-end;
-    width: 33%;
-    max-width: 527px;
-    max-height: 631px;
-    margin: 39px auto auto auto;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 100px;
   }
-  .logo img {
-    max-width: 100%;
+  .photo-slider {
+    margin: 20px 20px 20px 20px;
+    overflow: hidden;
+  }
+
+  .comment-examples {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-height: 94px;
+    margin: 0 20px 20px 20px;
+  }
+  .comment-examples img {
+    width: 15px;
+    height: 14px;
+    margin: 0 auto 0 calc(100% - 70px);
+    vertical-align: bottom;
+  }
+  .text-slider {
+    max-width: 550px;
+    height: 80px;
+    border-radius: 50px;
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.2));
+  }
+
+
+@media screen and (max-width:1750px) {
+  .head-section {
+    background-image: conic-gradient(from 315deg at 230px 280px, rgba(12, 78, 225, 1), rgba(208, 137, 214, 1),rgba(12, 78, 225, 1));
     height: auto;
-    box-sizing: padding-box;
   }
-
-
-
+  .main-header {
+    font-size: 50px;
+    line-height: 75px;
+  }
+}
 @media screen and (max-width:1600px) {
   .head-section {
-    background-image: conic-gradient(from 315deg at 195px 330px, rgba(12, 78, 225, 1), rgba(208, 137, 214, 1),rgba(12, 78, 225, 1));
+    background-image: conic-gradient(from 315deg at 195px 280px, rgba(12, 78, 225, 1), rgba(208, 137, 214, 1),rgba(12, 78, 225, 1));
     height: auto;
   }
   .top-menu {
     width: 87%;
     max-width: 1242px;
   }
-  .logo {
-    margin: 150px auto auto auto;
-  }
-  .logo img {
-    max-width: 100%;
-    height: auto;
+  .examples {
+    margin: 100px auto auto auto;
   }
   .bot-desc{
-    margin: 150px 0 0 0;
+    margin: 100px 0 0 0;
     padding: 0 20px 0 20px;
 
   }
@@ -164,28 +187,32 @@
 
 @media screen and (max-width: 1400px) {
   .head-section {
-    background-image: conic-gradient(from 315deg at 145px 330px, rgba(12, 78, 225, 1), rgba(208, 137, 214, 1),rgba(12, 78, 225, 1));
+    background-image: conic-gradient(from 315deg at 145px 280px, rgba(12, 78, 225, 1), rgba(208, 137, 214, 1),rgba(12, 78, 225, 1));
     height: auto;
   }
 }
 
 @media screen and (max-width: 1300px) {
   .head-section {
-    background-image: conic-gradient(from 315deg at 135px 330px, rgba(12, 78, 225, 1), rgba(208, 137, 214, 1),rgba(12, 78, 225, 1));
+    background-image: conic-gradient(from 315deg at 138px 280px, rgba(12, 78, 225, 1), rgba(208, 137, 214, 1),rgba(12, 78, 225, 1));
     height: auto;
+  }
+  .main-header {
+    font-size: 50px;
+    line-height: 75px;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .head-section {
-    background-image: conic-gradient(from 315deg at 120px 330px, rgba(12, 78, 225, 1), rgba(208, 137, 214, 1),rgba(12, 78, 225, 1));
+    background-image: conic-gradient(from 315deg at 125px 280px, rgba(12, 78, 225, 1), rgba(208, 137, 214, 1),rgba(12, 78, 225, 1));
     height: auto;
   }
 }
 
 @media screen and (max-width: 960px) {
   .head-section {
-    background-image: conic-gradient(from 315deg at 55px 280px, rgba(12, 78, 225, 1), rgba(208, 137, 214, 1),rgba(12, 78, 225, 1));
+    background-image: conic-gradient(from 315deg at 60px 280px, rgba(12, 78, 225, 1), rgba(208, 137, 214, 1),rgba(12, 78, 225, 1));
     height: auto;
   }
   .top-menu {
@@ -200,10 +227,6 @@
     width: 60px;
     height: 60px;
   }
-  .main-header {
-    font-size: 50px;
-    line-height: 75px;
-  }
   .desc-section {
     width: 100%;
   }
@@ -214,7 +237,7 @@
     margin-top: 120px;
     width: 100%;
   }
-  .logo {
+  .examples {
     display: none;
   }
   .description {
@@ -229,7 +252,7 @@
 
 @media screen and (max-width: 770px) {
   .head-section {
-    background-image: conic-gradient(from 315deg at 48px 247px, rgba(12, 78, 225, 1), rgba(208, 137, 214, 1),rgba(12, 78, 225, 1));
+    background-image: conic-gradient(from 315deg at 52px 247px, rgba(12, 78, 225, 1), rgba(208, 137, 214, 1),rgba(12, 78, 225, 1));
     height: auto;
   }
   .top-menu {
@@ -268,7 +291,7 @@
 
 @media screen and (max-width: 520px) {
   .head-section {
-    background-image: conic-gradient(from 315deg at 38px 200px, rgba(12, 78, 225, 1), rgba(208, 137, 214, 1),rgba(12, 78, 225, 1));
+    background-image: conic-gradient(from 315deg at 40px 200px, rgba(12, 78, 225, 1), rgba(208, 137, 214, 1),rgba(12, 78, 225, 1));
     height: auto;
   }
   .top-menu {
@@ -326,7 +349,7 @@
 
 @media screen and (max-width: 320px) {
   .head-section {
-    background-image: conic-gradient(from 315deg at 38px 170px, rgba(12, 78, 225, 1), rgba(208, 137, 214, 1),rgba(12, 78, 225, 1));
+    background-image: conic-gradient(from 315deg at 40px 170px, rgba(12, 78, 225, 1), rgba(208, 137, 214, 1),rgba(12, 78, 225, 1));
     height: auto;
   }
   .top-menu {

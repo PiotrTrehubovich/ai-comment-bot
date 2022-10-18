@@ -1,0 +1,77 @@
+.text-container {
+  height: 26px;
+  overflow: hidden;
+  margin: 27px;
+}
+.text p {
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+}
+.loader {
+    width: 15px;
+}
+.loader p {
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+    clip-path: inset(0 15px 0 0);
+    animation: loading 0.5s steps(4) infinite;
+}
+@keyframes loading {
+  to {
+    clip-path: inset(0 -5px 0 0)
+  }
+}
+
+.text:first-child {
+  animation: slide 12s infinite;
+}
+
+@keyframes slide {
+  0% {
+    margin-top: 0;
+  }
+  8.3% {
+    margin-top: 0;
+  }
+  10% {
+    margin-top: -26px;
+  }
+  31.3% {
+    margin-top: -26px;
+  }
+  33% {
+    margin-top: -52px;
+  }
+  41.3% {
+    margin-top: -52px;
+  }
+  43% {
+    margin-top: -78px;
+  }
+  64.3% {
+    margin-top: -78px;
+  }
+  66% {
+    margin-top: -104px;
+  }
+  74.3% {
+    margin-top: -104px;
+  }
+  76% {
+    margin-top: -130px;
+  }
+  97.3% {
+    margin-top: -130px;
+  }
+  100% {
+    margin-top: -156px;
+  }
+}
